@@ -1,0 +1,102 @@
+body {
+  position: relative;
+  background-color:#000000;
+  /*margin-top: 40px;*/
+  color: #ffffff;
+  /*this controls how you scroll to the element*/
+  height: 200px;
+  /*margin-top: .5rem;*/
+  overflow: auto;
+  margin: 0em 0em 0em 0em;
+}
+
+
+h1 {
+  color: #5a5a5a;
+  padding: 20px 20px 10px 20px;
+  font-size:120px;
+}
+
+#contentbody section {
+    padding-top: 1em;
+    
+}
+
+.content {
+    padding:2em 2em 10em 2em;
+    font-family: 'Dosis', sans-serif;
+    color: #5a5a5a;
+}
+
+.inverse {
+    background-color:#000000;
+    color: #ffffff;
+}
+
+#override {
+    padding-top:1em;
+    background-color:#ffffff;
+    color:black;
+    padding-bottom:0em;
+}
+
+
+.nav-link {
+    color: black;
+    
+}
+
+.nav-link:hover {
+    color: #00ee00;
+    font-weight:bold;
+}
+
+#quote{
+  color: #5a5a5a;
+  padding: 30px 30px 15px 30px;
+  font-size: 35px;
+  font-weight:650;
+}
+
+.bgimg {
+    float:center;
+    margin: 0 0 50px 0;
+    width: 100vw;
+}
+
+.fa-bolt {
+    display: inline-block;
+    font: normal normal normal 20px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #00ee00;
+}
+
+.bin-border {
+  /*uncomment to show bootstrap container borders*/
+  /*border:1px solid #cecece;*/
+  
+}
+
+a.btn-special:hover,
+a.btn-special:focus,
+a.btn-special:active,
+a.btn-special:active:focus,
+a.btn-special:active {
+    color: #292b2c;
+    background-color: #4666FF;
+    border-color: #ccc;
+}
+
+/*
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+*/
